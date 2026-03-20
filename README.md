@@ -12,7 +12,6 @@ Designed for fast navigation, efficient editing.
 
 - Minimalistic UI
 - Vim-inspired keybindings (hjkl navigation, terminal control, etc.)
-- Optimized for speed and focus
 - Clean color scheme and readable syntax highlighting
 
 ---

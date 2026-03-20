@@ -1,0 +1,62 @@
+{
+    //! Keys
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabCompletion": "off",
+    "macros": {
+        "openFileAndCloseExplorer": [
+            "explorer.openAndPassFocus",
+            "workbench.action.closeSidebar"
+        ]
+    },
+
+    //! Theme
+    "editor.tokenColorCustomizations": {
+        "[Ayu Mirage]": {
+            "textMateRules": [
+                {
+                    "scope": "entity.name.tag",
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.colorCustomizations": {
+        "[Ayu Mirage]": {
+            "statusBar.debuggingBackground": "#ffcc66"
+        }
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "JetBrainsMonoNL NFM",
+    "editor.fontSize": 14.5,
+
+    //! Visual
+    "breadcrumbs.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSurroundingLines": 8,
+    "editor.folding": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.activityBar.location": "bottom",
+    "window.commandCenter": false,
+    "window.density.editorTabHeight": "compact",
+    "window.menuBarVisibility": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+
+    //! Terminal
+    "terminal.integrated.fontFamily": "JetBrainsMonoNL NFM",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+
+    //! Git
+    "diffEditor.codeLens": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.allowForcePush": true,
+    "git.confirmForcePush": false,
+    "scm.diffDecorations": "gutter"
+}

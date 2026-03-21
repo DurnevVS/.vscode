@@ -45,8 +45,10 @@ git clone https://github.com/DurnevVS/.vscode.git
 
 Linux:
 ~/.config/Code/User/
+
 Windows:
 %APPDATA%\Code\User\
+
 macOS:
 ~/Library/Application Support/Code/User/
 

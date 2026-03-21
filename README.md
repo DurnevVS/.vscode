@@ -52,5 +52,5 @@ Windows:
 macOS:
 ~/Library/Application Support/Code/User/
 
-3. Add extensions.
+3. Add extensions
 4. Restart VS Code

@@ -2,9 +2,13 @@
 
 ![Preview](./screenshot.png)
 
-A minimal Visual Studio Code configuration with **vim-like keybindings** and a distraction-free UI.
+A minimal Visual Studio Code configuration with Vim-like keybindings and a distraction-free UI.
 
-Designed for fast navigation, efficient editing.
+Designed for fast navigation and efficient editing.
+
+The main idea is managing state depending on view focus and using the Alt key for Vim bindings.
+
+Remark: You should not use exactly these bindings — they are just for inspiration.
 
 ---
 
@@ -43,14 +47,14 @@ git clone https://github.com/DurnevVS/.vscode.git
 
 2. Copy settings into your VS Code config directory:
 
-Linux:
-~/.config/Code/User/
+- Linux:
+  ~/.config/Code/User/
 
-Windows:
-%APPDATA%\Code\User\
+- Windows:
+  %APPDATA%\Code\User\
 
-macOS:
-~/Library/Application Support/Code/User/
+- macOS:
+  ~/Library/Application Support/Code/User/
 
 3. Add extensions
 4. Restart VS Code
